@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
+    <html lang="en">
+    <meta charset="UTF-8">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="./js/guessing-game.js" defer></script>
+  </head>
+
+  <body>
+    <header><b>Project:06 Guessing Game</b></header>
+    <main>
+      <h1 class = "title">The Guessing Game</h1>
+      <div class = "catchphrase">Guess a number between 1 and 100</div>
+      <div class = "hint">Take a Guess!</div>
+      <section class = "guessing section">
+        <input type = "number" placeholder = "Your Guess Here" id = "guessBox">
+        <button id = "submit">Submit</button>
+      </section>
+      <div class="guessList"></div>
+        <ul>  
+          <li class = "firstGuess">-</li>
+          <li class = "secondGuess">-</li>
+          <li class = "thirdGuess">-</li>
+          <li class = "fourthGuess">-</li>
+          <li class = "fifthGuess">-</li>
+        </ul>
+      </div>
+      <button id = "reset">Reset</button>
+    </main>
+    <footer><b>Ryan Fitzpatrick</b></footer>
+  </body>
+
+</html>
